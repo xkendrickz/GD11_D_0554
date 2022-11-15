@@ -5,7 +5,6 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.ViewParent
 import android.widget.Filter
 import android.widget.Filterable
 import android.widget.ImageButton
@@ -19,7 +18,6 @@ import com.example.gd8_d_0554.R
 import com.example.gd8_d_0554.models.Mahasiswa
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import java.util.*
-import kotlin.collections.ArrayList
 
 class MahasiswaAdapter (private var mahasiswaList: List<Mahasiswa>, context: Context) :
     RecyclerView.Adapter<MahasiswaAdapter.ViewHolder>(), Filterable {
